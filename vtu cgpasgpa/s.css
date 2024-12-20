@@ -1,0 +1,48 @@
+
+/* Rectangle 31 */
+#rect{
+
+position: absolute;
+width: 300.5px;
+height: 409px;
+left: 375.5px;
+top: 68px;
+
+background: #692525;
+border-radius: 20px;
+}
+
+/* car 1 */
+
+#imm{
+
+position: absolute;
+width: 300px;
+height: 200px;
+left: 0px;
+top: 3px;
+
+background: url(car.jpg);
+
+}
+/* It is a racer car use for racing used by racers around the world Cost $300000 */
+
+#text{
+
+position: absolute;
+width: 290px;
+height: 178px;
+left: 395px;
+top: 273px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 120px;
+/* or 600% */
+
+text-align: center;
+
+color: #FFFFFF;
+}

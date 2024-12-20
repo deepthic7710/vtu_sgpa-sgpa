@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA/SGPA CALCULATOR</title>
+    <script src="script.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
+    <link rel="stylesheet" href="style2.css">
+    <script>
+        function newPage(url){
+            window.location.href = url;
+        }
+        function display(number)
+        {
+            alert(number);
+            var x = document.getElementById("main");
+            x.style.display = "none";
+            alert(x);
+            alert("Done");
+        }
+    </script>
+</head>
+<body>
+    <!--Landing page-->
+    <div id="landing">
+        <h1 id="v">V</h1><h1 id="t">T</h1>
+        <!-- <div id="logo"><img src="/logo.jpg" height="30px"></div> -->
+        <p id="Cname">VARCONA TECH</p>
+        <!--comapny name-->
+
+        <!--Navigation-->
+        <div id="nav">
+            
+                <button class="custom-btn buttons"> Sgpa Calc</button>
+                <button class="custom-btn buttons" onclick="window.location.href='C:\\Users\\DARSHAN\\OneDrive\\Desktop\\1.All about me\\internship\\cgpa.html';">Cgpa Calc</button>
+                <button class="custom-btn buttons"> Percentage Calc</button>
+                <button class="custom-btn buttons"> About us</button>
+                <button class="custom-btn buttons"> Download Grades</button>
+        </div>
+
+        <!--Main-->
+        <div id="main">
+            <h5 id="subtitle">CGPA/SGPA CALCULATOR</h5>
+            <img src="/calculator.png" id="calc">
+            <h1 id="title">SGPA Calculator</h1>
+            <div id="workarea">
+                <div class="position">
+              
+                  <!--start button, nothing above this is necessary -->
+                  <div class="svg-wrapper">
+                    <svg height="60" width="180" xmlns="http://www.w3.org/2000/svg">
+                      <rect id="shape" height="60" width="180" />
+                      <div id="text">
+                        <a href=""><span class="spot"></span>1st & 2nd SEM
+                            PHYSICS</a>
+                      </div>
+                    </svg>
+                  </div>
+                  <div class="svg-wrapper" id="col">
+                    <svg height="60" width="180" xmlns="http://www.w3.org/2000/svg">
+                      <rect id="shape" height="60" width="180" />
+                      <div id="text">
+                        <a href="" onclick="display(2)"><span class="spot"></span>1st & 2nd SEM
+                            CHEMISTRY</a>
+                      </div>
+                    </svg>
+                  </div>
+                  <div class="svg-wrapper" id="row">
+                    <svg height="60" width="180" xmlns="http://www.w3.org/2000/svg">
+                      <rect id="shape" height="60" width="180" />
+                      <div id="text">
+                        <a href=""><span class="spot"></span>3rd SEM
+                            <br> All Branch</a>
+                      </div>
+                    </svg>
+                  </div>
+                  <div class="svg-wrapper" id="col">
+                    <svg height="60" width="180" xmlns="http://www.w3.org/2000/svg">
+                      <rect id="shape" height="60" width="180" />
+                      <div id="text">
+                        <a href=""><span class="spot"></span>4th SEM
+                            <br> All Branch</a>
+                      </div>
+                    </svg>
+                  </div>
+                  <div class="svg-wrapper" id="row">
+                    <svg height="60" width="180" xmlns="http://www.w3.org/2000/svg">
+                      <rect id="shape" height="60" width="180" />
+                      <div id="text">
+                        <a href=""><span class="spot"></span>5th SEM
+                            <br> All Branch</a>
+                      </div>
+                    </svg>
+                  </div>
+                  <div class="svg-wrapper" id="col">
+                    <svg height="60" width="180" xmlns="http://www.w3.org/2000/svg">
+                      <rect id="shape" height="60" width="180" />
+                      <div id="text">
+                        <a href=""><span class="spot"></span>6th SEM
+                            <br> All Branch</a>
+                      </div>
+                    </svg>
+                  </div>
+                  <div class="svg-wrapper" id="row">
+                    <svg height="60" width="180" xmlns="http://www.w3.org/2000/svg">
+                      <rect id="shape" height="60" width="180" />
+                      <div id="text">
+                        <a href=""><span class="spot"></span>7th SEM
+                            <br> All Branch</a>
+                      </div>
+                    </svg>
+                  </div>
+                  
+                  <div class="svg-wrapper" id="col">
+                    <svg height="60" width="180" xmlns="http://www.w3.org/2000/svg">
+                      <rect id="shape" height="60" width="180" />
+                      <div id="text">
+                        <a href=""><span class="spot"></span>8th SEM
+                            <br> All Branch</a>
+                      </div>
+                    </svg>
+                  </div>
+
+                </div>
+              </div>
+        </div>
+        <!--Result-->
+        <div id="result">
+            <h1 id="sub">Yours Progress</h1>
+            <div id="container" style="width: 25rem; height: 25rem"></div>
+            <script>var data = [
+                {x: "White", value: 223553265},
+                {x: "Black or African American", value: 38929319},
+                {x: "American Indian and Alaska Native", value: 2932248},
+                {x: "Asian", value: 14674252},
+                {x: "Native Hawaiian and Other Pacific Islander", value: 540013},
+                {x: "Some Other Race", value: 19107368},
+                {x: "Two or More Races", value: 9009073}
+            ];
+            anychart.onDocumentReady(function() {
+
+                // set the data
+                var data = [
+                    {x: "18XX61", value: 87},
+                    {x: "18XX62", value: 82},
+                    {x: "18XX63", value: 88},
+                    {x: "18XX64", value: 78},
+                    {x: "18XX65", value: 87},
+                    {x: "18XXL66", value: 80},
+                    {x: "18XXL67", value: 97}
+                ];
+              
+                // create the chart
+                var chart = anychart.pie();
+              
+                // set the chart title
+                chart.title("Your Score in Each subject");
+              
+                // add the data
+                chart.data(data);
+                chart.background().fill("rgb(4, 12, 62)");
+              
+                // display the chart in the container
+                chart.container('container');
+                chart.draw();
+                              // set legend position
+                chart.legend().position("right");
+                // set items layout
+                chart.legend().itemsLayout("vertical");
+              });
+
+        </script>
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>
